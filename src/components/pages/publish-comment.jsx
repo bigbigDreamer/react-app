@@ -14,8 +14,12 @@ export default class PublishComment extends Component {
                 name: this.name.value,
                 content: this.content.value,
             });
+                document.querySelector('.tip')
+                    .style.display = "none";
             id++;
             this.setState({id});
+            this.name.value = '';
+            this.content.value = '';
         } else {
             alert("恶作剧真的好吗？？？");
         }

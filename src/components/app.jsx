@@ -38,7 +38,7 @@ export default class App extends Component {
                 <div className="bottom">
                     {/*左侧为发布区*/}
                     <div className="left">
-                        <PublishComment addComment={this.addComment}/>
+                        <PublishComment  addComment={this.addComment}/>
                     </div>
                     {/*右侧为显示区*/}
                     <div className="right">
