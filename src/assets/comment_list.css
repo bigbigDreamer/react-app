@@ -1,0 +1,45 @@
+.comment_list ul {
+  list-style: none;
+  margin: 0;
+}
+.comment_list ul li {
+  width: 80%;
+  height: 80px;
+  border: 1px solid #515a6e;
+  margin-bottom: 35px;
+  padding: 10px;
+  border-radius: 18px;
+}
+.comment_list ul li p {
+  margin: 0;
+  padding: 0;
+}
+.comment_list ul li p:first-child {
+  line-height: 25px;
+}
+.comment_list ul li p:first-child .btn {
+  display: block;
+  float: right;
+}
+.comment_list ul li p:first-child .btn button {
+  width: 80px;
+  height: 30px;
+  appearance: none;
+  outline: unset;
+  border: 1px solid #ff9900;
+  background-color: #ff9900;
+  border-radius: 5px;
+  padding: 5px;
+  transition: all 0.5s;
+  font-size: 16px;
+  color: white;
+}
+.comment_list ul li p:first-child .btn button:hover {
+  opacity: 0.8;
+}
+.comment_list ul li p:last-child {
+  text-indent: 2em;
+  line-height: 45px;
+  font-size: 18px;
+}
+/*# sourceMappingURL=comment_list.css.map */
